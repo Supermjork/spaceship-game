@@ -15,7 +15,7 @@ use spaceship::SpaceshipPlugin;
 fn main() {
     App::new()
         // Bevy Built-ins
-        .insert_resource(ClearColor(Color::srgb(0.1, 0.0, 0.15)))
+        .insert_resource(ClearColor(Color::srgb(0.02, 0.06, 0.18)))
         .insert_resource(AmbientLight {
             color: Color::default(),
             brightness: 750.,
