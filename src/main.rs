@@ -1,14 +1,14 @@
+mod camera;
 mod debug;
 mod movement;
 mod spaceship;
-mod camera;
 
 use bevy::prelude::*;
 
+use camera::CameraPlugin;
 use debug::DebugPlugin;
 use movement::MovementPlugin;
 use spaceship::SpaceshipPlugin;
-use camera::CameraPlugin;
 
 fn main() {
     App::new()

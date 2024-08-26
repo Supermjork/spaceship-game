@@ -11,6 +11,9 @@ impl Plugin for DebugPlugin {
 fn print_position(query: Query<(Entity, &Transform)>) {
     // Logging ID + Position for each entity
     for (entity, transform) in query.iter() {
-        info!("Entity {:?} is at Position ({:?}).", entity, transform.translation);
+        info!(
+            "Entity {:?} is at Position ({:?}).",
+            entity, transform.translation
+        );
     }
 }
