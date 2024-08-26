@@ -1,6 +1,5 @@
-use std::thread::spawn;
 
-use bevy::{prelude::*, transform::commands};
+use bevy::prelude::*;
 
 #[derive(Component, Debug)]
 struct Position {
