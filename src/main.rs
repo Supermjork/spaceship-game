@@ -13,7 +13,7 @@ use camera::CameraPlugin;
 fn main() {
     App::new()
         // Bevy Built-ins
-        .insert_resource(ClearColor(Color::rgb(0.1, 0.0, 0.15)))
+        .insert_resource(ClearColor(Color::srgb(0.1, 0.0, 0.15)))
         .insert_resource(AmbientLight {
             color: Color::default(),
             brightness: 0.75,
