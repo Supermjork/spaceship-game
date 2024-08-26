@@ -5,6 +5,7 @@ mod movement;
 mod spaceship;
 mod asset_loader;
 
+use asset_loader::AssetLoaderPlugin;
 use asteroid:: AsteroidPlugin;
 use bevy::prelude::*;
 
@@ -23,10 +24,11 @@ fn main() {
         })
         .add_plugins(DefaultPlugins)
         // User Defined Plugins
+        .add_plugins(AssetLoaderPlugin)
         .add_plugins(MovementPlugin)
         .add_plugins(SpaceshipPlugin)
         .add_plugins(AsteroidPlugin)
         .add_plugins(CameraPlugin)
-        .add_plugins(DebugPlugin)
+        //.add_plugins(DebugPlugin)
         .run();
 }
