@@ -3,6 +3,7 @@ mod camera;
 mod debug;
 mod movement;
 mod spaceship;
+mod asset_loader;
 
 use asteroid:: AsteroidPlugin;
 use bevy::prelude::*;
