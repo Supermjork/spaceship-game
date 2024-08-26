@@ -2,6 +2,7 @@ mod camera;
 mod debug;
 mod movement;
 mod spaceship;
+mod asteroid;
 
 use bevy::prelude::*;
 
