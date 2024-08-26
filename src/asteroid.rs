@@ -3,7 +3,10 @@ use std::ops::Range;
 use bevy::prelude::*;
 use rand::Rng;
 
-use crate::{asset_loader::SceneAssets, movement::{Acceleration, MovingObjectBundle, Velocity}};
+use crate::{
+    asset_loader::SceneAssets,
+    movement::{Acceleration, MovingObjectBundle, Velocity},
+};
 
 const VELOCITY_SCALAR: f32 = 5.0;
 const ACCELERATION_SCALAR: f32 = 1.0;
