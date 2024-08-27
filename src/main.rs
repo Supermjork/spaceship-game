@@ -10,7 +10,8 @@ use asteroid::AsteroidPlugin;
 use bevy::prelude::*;
 
 use camera::CameraPlugin;
-use debug::DebugPlugin;
+// Disabling Debugging for now
+//use debug::DebugPlugin;
 use movement::MovementPlugin;
 use spaceship::SpaceshipPlugin;
 
